@@ -1,0 +1,17 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  font-size: x-small;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Adjusted for better visibility */
+  height: 60px; /* Adjusted for better visibility */
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  margin: 0 -10px;
+  transform: perspective(500px) rotateY(20deg); /* Example of 3D perspective */
+}
